@@ -87,3 +87,15 @@ h1,h2,h3{line-height:1.05;margin:0;color:var(--navy);letter-spacing:-.045em}h1{f
 @media (max-width:1050px){.pricing-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:720px){.pricing-grid,.pricing-grid.two-prices,.compact-prices{grid-template-columns:1fr}.price-card{padding:22px}.vehicle-price{display:grid}.price-disclaimer{font-size:.9rem}}
 
+
+
+/* Cijenik page */
+.price-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.price-table{background:#fff;border:1px solid rgba(6,43,85,.09);border-radius:30px;box-shadow:var(--shadow-soft);overflow:hidden}
+.price-row{display:grid;grid-template-columns:1.05fr .75fr 1.3fr;gap:18px;align-items:center;padding:18px 22px;border-bottom:1px solid var(--line)}
+.price-row:last-child{border-bottom:0}
+.price-row.head{background:var(--navy);color:#fff;font-weight:950;text-transform:uppercase;letter-spacing:.08em;font-size:.82rem}
+.price-row span{color:#42526b;font-weight:750}
+.price-row.head span{color:#fff}
+.price-row strong{color:var(--navy);font-size:1.08rem;font-weight:950}
+@media (max-width:720px){.price-actions .btn{width:100%}.price-row{grid-template-columns:1fr;gap:6px;padding:18px}.price-row.head{display:none}.price-row strong{font-size:1.2rem}}
