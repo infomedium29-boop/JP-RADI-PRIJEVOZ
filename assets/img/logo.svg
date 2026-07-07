@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-labelledby="title desc">
+  <title id="title">J.P. Radić 2024 logo</title>
+  <desc id="desc">Moderni transportni znak s monogramom JP i paketom</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#FFD041"/>
+      <stop offset="1" stop-color="#F1A800"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07345F"/>
+      <stop offset="1" stop-color="#031D3A"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="14" width="92" height="92" rx="26" fill="url(#navy)"/>
+  <path d="M28 51l24-14 24 14v28L52 93 28 79z" fill="url(#gold)"/>
+  <path d="M28 51l24 14 24-14M52 65v28" fill="none" stroke="#082A4F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/>
+  <path d="M105 61h42" stroke="#F2B300" stroke-width="8" stroke-linecap="round"/>
+  <path d="M133 43l18 18-18 18" fill="none" stroke="#F2B300" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="168" y="54" fill="#062B55" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="31" letter-spacing="-1">J.P. RADIĆ</text>
+  <text x="168" y="84" fill="#F2B300" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="22" letter-spacing="3">PRIJEVOZ 2024</text>
+</svg>
