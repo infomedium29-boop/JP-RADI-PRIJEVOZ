@@ -71,11 +71,22 @@
     <div class="reveal">
       <span class="eyebrow">Što napisati?</span>
       <h2>Što više detalja pošaljete, brže se može složiti ponuda</h2>
-      <p class="lead" style="margin-top:18px">Navedite polaznu i završnu lokaciju, vrstu robe, okvirnu količinu, treba li utovar ili istovar i željeni datum.</p>
+      <p class="lead" style="margin-top:18px">Navedite polaznu i završnu lokaciju, vrstu robe, okvirnu količinu, treba li utovar ili istovar i željeni datum. Za najam vozila navedite i želite li najam po satu, po danu ili dugoročno.</p>
       <div class="mini-card-grid" style="grid-template-columns:1fr;margin-top:24px">
-        <div class="mini-card"><strong>Prijevoz robe</strong><span>Opis robe, relacija i termin.</span></div>
-        <div class="mini-card"><strong>Selidba</strong><span>Količina stvari i treba li nošenje.</span></div>
-        <div class="mini-card"><strong>Najam vozila</strong><span>Vrsta vozila, datum i trajanje najma.</span></div>
+        <div class="mini-card"><strong>Dostava</strong><span>Od 30 €, ovisno o udaljenosti.</span></div>
+        <div class="mini-card"><strong>Selidba</strong><span>Cijena po dogovoru prema opsegu.</span></div>
+        <div class="mini-card"><strong>Najam vozila</strong><span>Kombi 50 € / dan, kedi 30 € / dan.</span></div>
+      </div>
+
+      <div class="contact-prices reveal">
+        <h3>Orijentacijske cijene</h3>
+        <div class="compact-prices">
+          <div><strong>Dostava</strong><span>od 30 €</span></div>
+          <div><strong>Selidba</strong><span>po dogovoru</span></div>
+          <div><strong>Kombi</strong><span>50 € / dan · 15 € / h</span></div>
+          <div><strong>Kedi</strong><span>30 € / dan · 10 € / h</span></div>
+        </div>
+        <p>Konačna cijena ovisi o relaciji, trajanju najma, količini robe i potrebi za utovarom ili istovarom.</p>
       </div>
       <div class="contact-photo reveal"><img loading="lazy" src="assets/img/photos/paketi-u-kombiju.avif" alt="Paketi i roba u kombiju prije polaska na dostavu"></div>
     </div>
@@ -86,7 +97,7 @@
         <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email"></div>
         <div class="field"><label for="usluga">Vrsta usluge</label><select id="usluga" name="usluga" required><option value="">Odaberite uslugu</option><option>Prijevoz robe</option><option>Selidba</option><option>Dostava</option><option>Najam vozila</option><option>Drugo</option></select></div>
         <div class="field full"><label for="relacija">Relacija prijevoza</label><input id="relacija" name="relacija" type="text" placeholder="Npr. Split - Zagreb / Split - okolica"></div>
-        <div class="field full"><label for="poruka">Poruka / opis robe</label><textarea id="poruka" name="poruka" placeholder="Napišite što trebate prevesti, okvirnu količinu, datum i treba li utovar/istovar."></textarea></div>
+        <div class="field full"><label for="poruka">Poruka / opis robe</label><textarea id="poruka" name="poruka" placeholder="Napišite što trebate prevesti, okvirnu količinu, datum, relaciju i treba li utovar/istovar. Za najam vozila navedite želite li po satu, danu ili dugoročno."></textarea></div>
       </div>
       <button class="btn btn-primary full" type="submit" style="margin-top:18px">Pošaljite upit</button>
       <p class="form-note">Forma trenutno otvara e-mail s pripremljenim upitom. Za direktno slanje s weba može se naknadno povezati Web3Forms ili sličan servis.</p>
